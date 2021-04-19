@@ -1,0 +1,64 @@
+.threadHeader {
+  height: 100px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.threadHeader__nameContainer {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  align-items: flex-start;
+  padding-right: 24px;
+}
+
+.threadHeader__name {
+  height: fit-content;
+  width: fit-content;
+  margin: 0;
+}
+
+.threadHeader__threadId {
+  color: #7c7c7c;
+  font-size: 14px;
+}
+
+.threadHeader__button {
+  height: 32px;
+  width: 96px;
+  background-color: #f1c50e;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: auto;
+  outline: none;
+  cursor: pointer;
+}
+
+.threadHeader__top {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: center;
+}
+.threadHeader__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.threadHeader__nav > label:first-child {
+  border-bottom: 3px solid #f1c50e;
+}
+
+.threadHeader__nav > label {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #7c7c7c;
+  cursor: pointer;
+  padding: 4px 8px;
+}

@@ -1,0 +1,33 @@
+.filter {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter > label {
+  margin-right: 10px;
+  padding: 10px;
+  color: #f1c50e;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filter__type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filter__type > svg {
+  display: inline-block;
+  padding: 0 8px 0 0;
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  fill: #f1c50e;
+}
